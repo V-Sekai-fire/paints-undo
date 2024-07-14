@@ -278,7 +278,7 @@ with block:
                                           elem_id="i2v_cfg_scale")
                 i2v_steps = gr.Slider(minimum=1, maximum=60, step=1, elem_id="i2v_steps",
                                       label="Sampling steps", value=50)
-                i2v_fps = gr.Slider(minimum=1, maximum=30, step=1, elem_id="i2v_motion", label="FPS", value=4)
+                i2v_fps = gr.Slider(minimum=1, maximum=30, step=1, elem_id="i2v_motion", label="FPS", value=30)
             with gr.Column():
                 i2v_end_btn = gr.Button("Generate Video", interactive=False)
                 i2v_output_video = gr.Video(label="Generated Video", elem_id="output_vid", autoplay=True,
@@ -321,4 +321,4 @@ with block:
         examples_per_page=1024
     )
 
-block.queue().launch(server_name='0.0.0.0')
+block.queue().launch(server_name='127.0.0.1')

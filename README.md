@@ -22,8 +22,9 @@ You can deploy PaintsUndo locally via:
 
     git clone https://github.com/lllyasviel/Paints-UNDO.git
     cd Paints-UNDO
-    conda create -n paints_undo python=3.10
-    conda activate paints_undo
+    scoop install micromamba
+    micromamba create -n paints_undo python=3.10
+    micromamba activate paints_undo
     pip install xformers
     pip install -r requirements.txt
     python gradio_app.py

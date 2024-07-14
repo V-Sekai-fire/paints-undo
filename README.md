@@ -12,7 +12,7 @@ Paints-Undo presents a family of models that take an image as input and then out
 
 [>>> Click Here to See the Example Page <<<](https://lllyasviel.github.io/pages/paints_undo/)
 
-**This GitHub repo is the only official page of PaintsUndo. We do not have any other websites.**
+~~**This GitHub repo is the only official page of PaintsUndo. We do not have any other websites.**~~
 
 **Do note that many fake websites of PaintsUndo are on Google and social media recently.**
 

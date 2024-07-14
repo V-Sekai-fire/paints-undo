@@ -27,7 +27,7 @@ You can deploy PaintsUndo locally via:
     micromamba activate paints_undo
     pip install xformers
     pip install -r requirements.txt
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
     python gradio_app.py
 
 (If you do not know how to use these commands, you can paste those commands to ChatGPT and ask ChatGPT to explain and give more detailed instructions.)

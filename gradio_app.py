@@ -252,7 +252,7 @@ with block:
     with gr.Accordion(label='Step 2: Generate Key Frames', open=True):
         with gr.Row():
             with gr.Column():
-                input_undo_steps = gr.Dropdown(label="Operation Steps", value=[100, 200, 300, 550, 700, 950],
+                input_undo_steps = gr.Dropdown(label="Operation Steps", value=[400, 600, 800, 900, 950, 999],
                                                choices=list(range(1000)), multiselect=True)
                 seed = gr.Slider(label='Stage 1 Seed', minimum=0, maximum=50000, step=1, value=12345)
                 image_width = gr.Slider(label="Image Width", minimum=256, maximum=1024, value=512, step=64)

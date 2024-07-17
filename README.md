@@ -25,7 +25,7 @@ You can deploy PaintsUndo locally via:
     scoop install micromamba
     micromamba create -n paints_undo python=3.10 -c conda-forge
     micromamba activate paints_undo
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
     pip install xformers
     pip install -r requirements.txt
     python gradio_app.py
